@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		var tarikh= new Date();
+		var month=tarikh.getMonth();
+		var day=tarikh.getDay();
+		document.write(getMonthName(month) + "<br>");
+		document.write(getDayName(Day)+ "<br>");
+
+		function getMonthName(monthnumber)
+		{
+			var monthname=["january","february","march","april","may","june","july","august","september","october","decmber"];
+			return monthname[monthnumber];
+
+		}
+
+		function getDayName(datnumber)
+		{
+			var dayname =["sunday","monday","tuesday","wednesday","thursday","friday","saturday"];
+			return dayname[daynumber];
+
+		}
+
+		
+	</script>
+
+</body>
+</html>
